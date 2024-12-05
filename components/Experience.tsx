@@ -37,7 +37,12 @@ const Experience = () => {
               />
               <div className="lg:ms-5">
                 <h1 className="text-start text-xl md:text-2xl font-bold">
-                  {card.title}
+                  {card.title}{" "}
+                  {card.org ? (
+                    <div className="text-start text-[10px] text-white-100 bold text-wrap">
+                      ({card.org})
+                    </div>
+                  ) : null}
                 </h1>
                 <p className="text-start text-white-100 mt-3 font-semibold">
                   {card.desc}

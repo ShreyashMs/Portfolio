@@ -293,6 +293,7 @@ export const workExperience = [
     id: 1,
     title: "Software Engineer Intern",
     desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    org: "Bitlance Tech Hub,Amravati",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
@@ -301,6 +302,7 @@ export const workExperience = [
     title: "Software Developer",
     desc: "eveloped and maintained user-facing features using modern technologies.",
     className: "md:col-span-2", // change to md:col-span-2
+    org: "Trinesis Technologies,Pune",
     thumbnail: "/exp2.svg",
   },
   {
@@ -308,13 +310,15 @@ export const workExperience = [
     title: "Freelance App and Web Dev Project",
     desc: "Led the dev of a mobile and web app for a client, from initial concept to deployment on app stores.",
     className: "md:col-span-2", // change to md:col-span-2
+    org: "Marquis Education,Remote",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Mobile Developer",
-    desc: "DDesigned and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Freelance Mobile Developer",
+    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
     className: "md:col-span-2", // change to md:col-span-2",
+    org: "",
     thumbnail: "/exp4.svg",
   },
 ];
