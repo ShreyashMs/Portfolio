@@ -134,7 +134,10 @@ export const InfiniteMovingCards = ({
                   <span className="text-lg font-bold leading-[1.4] text-white">
                     {item.title}
                   </span>
-                  <span title={item.quote} className="relative z-20 text-sm md:text-xs leading-[1.4] text-white font-normal whitespace-normal max-w-[13rem] overflow-hidden overflow-ellipsis line-clamp-2">
+                  <span
+                    title={item.quote}
+                    className="relative z-20 text-sm md:text-xs leading-[1.4] text-white font-normal whitespace-normal max-w-[13rem] overflow-hidden overflow-ellipsis line-clamp-2"
+                  >
                     {item.quote}
                   </span>
                 </span>
